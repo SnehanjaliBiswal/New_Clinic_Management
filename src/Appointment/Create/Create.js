@@ -22,6 +22,7 @@ import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Cookies from 'js-cookie';
 
+
 const schema = yup.object().shape({
   patientName: yup.string().required("Patient Name is required"),
   treatment: yup.string().required("Treatment is required"),
